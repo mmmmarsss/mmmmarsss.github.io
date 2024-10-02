@@ -5,7 +5,9 @@
 
 ## markdown formatting
 
-blah blah blahjdsfu 
+git is important becuase it allows us to shave files from our computer and run our website
+vim is important becuase it allows us to edit text files
+markdown is important becuase it allows us to easily write text for a website
 
 ### lists
 
