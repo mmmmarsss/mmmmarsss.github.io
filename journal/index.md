@@ -1,1 +1,1 @@
-[project](entries/wordpress)
+[project](entries/Wordpress.md)
