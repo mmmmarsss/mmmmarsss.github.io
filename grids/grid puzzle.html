@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"
+    <head>
+        <title>grids</title>
+        <script src="..js/init.js"></script>
+        <style>
+            #grid{
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                height: 80vh;
+                gap: 5px;
+            }
+            #item{
+                background-color: green;
+                grid-row-start: 1;
+                grid-column-start: 1;
+                grid-column-end: 5;
+
+            }
+            #item2{
+                background-color: green;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                grid-column-start: 2;
+                grid-column-end: 4;
+            
+            }
+            #item3{
+                background-color: green;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                grid-column-start: 1;
+            }
+            #item4{
+                background-color: green;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                grid-column-start: 4;
+            }
+            #item5{
+                background-color: green;
+                grid-row-start: 4;
+                grid-column-start: 1;
+                grid-column-end: 5;
+            }
+            #hrid{
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr ;
+                grid-template-columns: 1fr 1fr 1fr ;
+                height: 60vh;
+                gap: 5px;
+            }
+            #thing{
+                background-color: green;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                
+            }
+            #thing2{
+                background-color: green;
+                grid-column: 3;
+                grid-row-start: 1;
+                grid-row-end: 3;
+    
+            }
+            #thing3{
+                background-color: green;
+                grid-column: 1;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+            #thing4{
+                background-color: green;
+            }
+            #thing5{
+                background-color: green;
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div id="item">Header</div>
+            <div id="item2">main</div>
+            <div id="item3">side</div>
+            <div id="item4">side</div>
+            <div id="item5">foot</div>
+        </div>
+        <div id="hrid">
+            <div id="thing">A</div>
+            <div id="thing2">B</div>
+            <div id="thing3">C</div>
+            <div id="thing4">D</div>
+            <div id="thing5">E</div>
+        </div>
+
+    </body>
+</html>
